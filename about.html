@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="aboutstyle.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Raleway"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon.png"
+    />
+    <meta name="theme-color" content="#b6dfe7" />
+    <link rel="stylesheet" href="https://unpkg.com/normalize.css" />
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Aks Art</title>
+  </head>
+
+  <body>
+    <div class="nav-top">
+      <ul class="one">
+        <li style="float: left;">
+          <a href="/index.html"><strong>AKS ART</strong></a>
+        </li>
+        <li style="float: right;">
+          <a href="/contact.html"
+            ><i class="fa fa-fw fa-envelope"></i> Contact
+          </a>
+        </li>
+        <li style="float: right;">
+          <a href="/gallery.html"
+            ><i class="fa fa-fw fa-image"></i> Gallery
+          </a>
+        </li>
+        <li style="float: right;">
+          <a href="/about.html"><i class="fa fa-fw fa-user"></i> About </a>
+        </li>
+        <li style="float: right;">
+          <a href="/index.html"><i class="fa fa-fw fa-home"></i> Home </a>
+        </li>
+      </ul>
+    </div>
+
+    <button class="button" id="myBtn">
+      <div class="top">
+        DIWALI OFFER
+      </div>
+    </button>
+
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">x</span>
+        <div>
+          <br /><br /><br /><br /><br /><br />
+          <h2 style="text-align: center;">Aks Art</h2>
+          <h3 style="text-align: center;">
+            DIWALI OFFER
+          </h3>
+        </div>
+        <h2 style="text-align: center;">
+          Get 10% off on all products!
+        </h2>
+        <h4 style="text-align: center;">
+          Don't miss out on this flash sale.
+          <br />
+          <br />
+          ORDER NOW
+        </h4>
+      </div>
+    </div>
+
+    <main>
+    <section id="about" class="about-cont">
+        <div class="about1-cont">
+            <div class="about1">
+              <div class="about1-1">
+                <h4>A LITTLE ABOUT ME</h4>
+                <h2 style="color: rgb(5, 66, 28);">
+                    akshaya kani
+                </h2>
+                <ul class="list">
+                    <li>
+                        <i data-feather="map-pin"></i>
+                        <span> Tamil Nadu, India</span>
+                    </li>
+                    <li>
+                        <i data-feather="gift"></i>
+                        <span> 15th March, 2003</span>
+                    </li>
+                    <li>
+                        <img src="https://img.icons8.com/ios/24/000000/university.png" />
+                        <span> Shiv Nadar Uni, 2020-2024</span>
+                    </li>
+                </ul>
+                </div>
+                <div class="me">
+                  <img src="about.png" alt="Akshaya" />
+                </div>
+            </div>
+        <div class="about-cont2">
+            <p class="about2">
+                I have always been fascinated by the way a simple ball of yarn or a
+                tin of paint can be transformed into a something breathtaking. Over
+                the last 5 years, I worked extensively with thread, striving to make
+                unique works of art.
+            </p>
+            <div class="about3">
+                <p>
+                    I usually translate an image into a piece of fabric craft by a
+                    technique called macramé. It involves using a variety of knots on
+                    thread, string and rope to create functional and decorative items.
+                </p>
+            </div>
+          </div>
+        </div>
+      <div class="about4-cont">
+        <div class="about4">
+          <h4>
+            A short video on how I make a keychain can be viewed below.
+          </h4>
+          <iframe width="400px" ; height="200px" ; src="https://www.youtube.com/embed/RRRYXa26v_k" title="YouTube video player"
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+    </section>
+        
+    </main>
+
+    <footer>
+      <div class="footer" id="contact">
+        <h3>
+          Akshaya Kani
+        </h3>
+            <span><i class="fa fa-fw fa-edit"></i> +91 6374845895 </span>
+          <br />
+            <a href="mailto:akshayakani15@gmail.com"> <i class="fa fa-fw fa-envelope"></i> akshayakani15@gmail.com</a
+            >
+          <br />
+          <hr />
+            <span> Thanks for your time. <i class="fa fa-fw fa-heart"></i> </span>
+<br/>
+</div>
+    </footer>
+
+    <script>
+      feather.replace();
+    </script>
+
+    <script>
+      var modal = document.getElementById("myModal");
+      var btn = document.getElementById("myBtn");
+      var span = document.getElementsByClassName("close")[0];
+      btn.onclick = function () {
+        modal.style.display = "block";
+      };
+      span.onclick = function () {
+        modal.style.display = "none";
+      };
+      window.onclick = function (event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      };
+    </script>
+  </body>
+</html>
