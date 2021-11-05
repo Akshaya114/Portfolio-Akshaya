@@ -42,7 +42,7 @@ h6 {
 }
 
 .heading {
-  background-image: url("rust.PNG");
+  background-image: url("assets/rust.PNG");
   background-size: cover;
   padding-top: -20px;
   padding-left: 20px;
@@ -63,6 +63,7 @@ h6 {
   font-weight: 800;
   -webkit-font-smoothing: antialiased;
 }
+
 .remove {
   margin-top: -190px;
   padding-top: 100px;
@@ -80,7 +81,7 @@ h6 {
   position: fixed;
   bottom: 40px;
   right: 50px;
-  background-image: url("lamp.jfif");
+  background-image: url("assets/lamp.jfif");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 37px 40px;
@@ -124,7 +125,7 @@ h6 {
 }
 
 .modal-content {
-  background-image: url("diya.jpg");
+  background-image: url("assets/diya.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 400px;
@@ -317,7 +318,7 @@ li.dropdown {
 .bird {
   margin-top: 0px;
   margin-right: 0px;
-  background-image: url("bird.png");
+  background-image: url("assets/bird.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: relative;
@@ -350,7 +351,7 @@ border: 5px solid rgb(5, 66, 28);
 }
 
 .about {
-  background-image: url("brick1.png");
+  background-image: url("assets/brick1.png");
   background-size: cover;
   padding: 20px;
   font-family: 'Satisfy', cursive;
@@ -436,7 +437,7 @@ margin-bottom:40px;
   width: 100%;
 }
 .wall {
-  background-image: url("brick.png");
+  background-image: url("assets/brick.png");
   background-size: cover;
   padding: 40px;
 }
